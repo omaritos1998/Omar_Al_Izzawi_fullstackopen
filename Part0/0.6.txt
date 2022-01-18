@@ -1,0 +1,6 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTML-code success, return 201 status with data.json
+
+note over browser:
+The inserted note appear faster, cause the page not fully refresh
+end note
